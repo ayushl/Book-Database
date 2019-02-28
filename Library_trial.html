@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Library Book</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+
+<body onload="displayInitial()">
+   
+    <div class="top">
+        <strong><h1>BOOK DATABASE</h1></strong></div><br>
+    <div id="headerButtons">
+        <button id="addNewBook" >New Book</button>
+        <button id="updateABook">Update Book</button>
+        <button id="DeleteBookS">Delete Book</button>
+    </div></nav><br>
+    <br>
+    <div id="formForBook" >
+       <h2> Book Name : <br><input type="text" id="myInput" class="in" >
+        <p id="duplicateerror">Book already exists!!</p><br>
+        Author : <br> <input type="text" id="myAuthor" class="in"><br>
+        Publisher :<br> <input type="text" id="myPublisher" class="in"><br>
+        Price :   <br>  <input type="text" id="myPrice" class="in" ><br></h2>
+        <br>
+        <button id="formAddButton">Add</button>
+        <button id="formUpdateButton">Update</button>
+        <button id="formCancelButton">Cancel</button>
+    </div><br>
+    <center><div id="bookListTable"></div></center>
+    <script src="scriptview.js"></script>
+    <script src="scriptModel.js"></script>
+    <script src="scriptController.js"></script>
+</body>
+
+</html>
