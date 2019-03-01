@@ -11,7 +11,7 @@
     text-align: center;
 }
 body{
-    background-image: linear-gradient(rgb(0, 34, 129), rgb(156, 238, 118));
+    
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,12 +52,12 @@ button {
     
 }
 
-    button:hover {background-color: rgba(48, 143, 160, 0.911);
+    button:hover {background-color: rgba(132, 135, 136, 0.911);
         box-shadow: 0 3px rgb(244, 245, 247);
     }
   
   button:active {
-    background-color: rgba(48, 124, 160, 0.911);
+    background-color: rgba(132, 135, 136, 0.911);
    
     transform: translateY(2px);
   }
